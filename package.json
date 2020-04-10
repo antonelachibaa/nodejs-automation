@@ -1,0 +1,36 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "nodejs-automation",
+  "main": "index.js",
+  "dependencies": {
+    "googleapis": "^48.0.0",
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.15",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "promise-poller": "^1.9.1",
+    "url": "^0.11.0",
+    "uuid": "latest"
+  },
+  "devDependencies": {
+    "jasmine-allure-reporter": "^1.0.2",
+    "luxon": "^1.23.0",
+    "protractor": "^5.4.3",
+    "protractor-screenshot-utils": "^1.0.5",
+    "winston": "^3.2.1"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/protractor protractor.cs.conf.js --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonelachibaa/nodejs-automation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonelachibaa/nodejs-automation/issues"
+  },
+  "homepage": "https://github.com/antonelachibaa/nodejs-automation#readme"
+}
