@@ -1,5 +1,5 @@
 {
-  "name": "automation",
+  "name": "automation-nodejs",
   "version": "1.0.0",
   "description": "nodejs-automation",
   "main": "index.js",
