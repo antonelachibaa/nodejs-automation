@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/antonelachibaa/nodejs-automation/issues"
   },
-  "homepage": "https://github.com/antonelachibaa/nodejs-automation#readme"
+  "homepage": "https://github.com/antonelachibaa/nodejs-automation#readme",
+  "publishConfig": {
+    "registry": "git://github.com/antonelachibaa/nodejs-automation.git"
+  }
 }
