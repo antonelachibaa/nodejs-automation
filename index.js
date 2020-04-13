@@ -1,19 +1,13 @@
-'use strict';
-
-module.exports = require('./db/utils');
-module.exports = require('./db/index');
-module.exports = require('./db/parser');
-module.exports = require('./db/model');
-module.exports = require('./email/gmail/index');
-module.exports = require('./email/gmail/credentials');
-module.exports = require('./email/gmail/token');
-module.exports = require('./store/index');
-module.exports = require('./store/schema');
-module.exports = require('./utils/functions');
-module.exports = require('./web/action');
-module.exports = require('./web/functions');
-module.exports = require('./web/wait');
-module.exports = require('./web/page/index');
-
-
-
+export { Action } from './web/action';
+export { Wait }  from './web/wait';
+export {  saveCookies, loadCookies, saveStorage, loadStorage, pushAction } from './web/functions';
+export { Page } from './web/page/index';
+export {  repeat, randomInt, generatePassword, alphanumericString, chainPromise, deleteAllFilesFromDirectory, convertValueToYesOrNo,
+          formatNumber, convertNoneToValue } from './utils/functions'
+export { Store } from '/store/index'
+export { SCHEMA } from '/store/schema'
+export { getEmail } from './email/gmail/index'
+export {  createUser, update } from './db/utils'
+export { Model } from './db/model'
+export { Db } from './db/index'
+export { Serialize, Deserialize} from './db/parser'

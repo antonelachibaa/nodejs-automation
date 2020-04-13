@@ -85,7 +85,7 @@ const GenerateEmail = new yaml.Type('!email', {
 
 
 
-const CREDITSTACKS_SCHEMA = yaml.Schema.create([
+const SCHEMA = yaml.Schema.create([
   RandomId,
   RandomPassword,
   RandomAlphanumericString,
@@ -94,4 +94,4 @@ const CREDITSTACKS_SCHEMA = yaml.Schema.create([
   Date,
 ]);
 
-module.exports = { CREDITSTACKS_SCHEMA };
+module.exports = { SCHEMA };
