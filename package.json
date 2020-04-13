@@ -1,5 +1,5 @@
 {
-  "name": "@antonelachibaa/nodejs-automation",
+  "name": "automation",
   "version": "1.0.0",
   "description": "nodejs-automation",
   "main": "index.js",
@@ -34,6 +34,6 @@
   },
   "homepage": "https://github.com/antonelachibaa/nodejs-automation#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@antonelachibaa"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
