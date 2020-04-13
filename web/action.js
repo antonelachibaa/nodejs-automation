@@ -185,7 +185,7 @@ class Action {
       if (currentStatus !== status) {
         logger.debug(`Action: Mark Checkbox ${locator} from ${currentStatus} to ${status}`);
         if (currentStatus === true) {
-          return this.click(locator);
+           this.click(locator);
         }
         return this.click(locator);
       }
