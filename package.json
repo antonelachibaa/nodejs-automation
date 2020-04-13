@@ -1,6 +1,6 @@
 {
   "name": "automation",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "nodejs-automation",
   "main": "index.js",
   "dependencies": {
@@ -14,6 +14,7 @@
     "uuid": "latest"
   },
   "devDependencies": {
+    "iocane": "^4.0.0",
     "jasmine-allure-reporter": "^1.0.2",
     "luxon": "^1.23.0",
     "protractor": "^5.4.3",
