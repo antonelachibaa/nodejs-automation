@@ -1,5 +1,5 @@
 {
-  "name": "automation",
+  "name": "@antonelachibaa/nodejs-automation",
   "version": "1.0.0",
   "description": "nodejs-automation",
   "main": "index.js",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antonelachibaa/nodejs-automation.git"
+    "url": "git@github.com:antonelachibaa/nodejs-automation.git"
   },
   "author": "",
   "license": "ISC",
@@ -34,6 +34,6 @@
   },
   "homepage": "https://github.com/antonelachibaa/nodejs-automation#readme",
   "publishConfig": {
-    "registry": "git://github.com/antonelachibaa/nodejs-automation.git"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
